@@ -2,22 +2,22 @@ import React from 'react'
 
 export default function TopBar() {
     return (
-        <nav className="flex mx-auto px-2 items-center container justify-between">
+        <nav className="flex mx-auto px-4 items-center container justify-between">
           <div className="flex items-center space-x-2">
-            <div className="flex items-center space-x-2 p-4 bg-gray-700 text-gray-400 rounded-full">
+            <div className="flex items-center space-x-2 p-4 bg-secondary-light text-primary-ligh rounded-full">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" />
               </svg>
               <span className="text-lg">Menu</span>
             </div>
-            <div className="flex items-center space-x-2 p-4 bg-gray-700 text-gray-400 rounded-full">
+            <div className="flex items-center space-x-2 p-4 bg-secondary-light text-primary-light rounded-full">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 transform rotate-90" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
               <input className="bg-transparent focus:outline-none text-lg max-w-xs" placeholder="Search" type="search" />
             </div>
           </div>
-          <h1 className="text-4xl text-gray-400">LOGO</h1>
+          <img src="/logo.svg" alt="" />
           <div className="flex items-center space-x-8">
             <div className="flex items-center space-x-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
