@@ -5,15 +5,11 @@ import { Route, Routes } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 
 function App() {
-  return (
-    <Layout className={"min-h-screen"}>
+  return ( 
       <Routes>
-        <Route path='/login' element={<Login />} />
         <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
-    </Layout>
-
-
   );
 }
 
