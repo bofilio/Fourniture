@@ -1,7 +1,28 @@
 export default function Product({ variant }) {
   switch (variant) {
     case "big":
-      return (<></>)
+      return (
+        <div className="w-136 bg-gray-100 rounded-2xl flex flex-col space-y-2 relative pb-10">
+            <div className="flex absolute top-0 left-0">
+              <span className="rounded-br-3xl rounded-tl-3xl px-2 right-5 bg-red-400 text-yellow-100">ONLY 3 LEFT</span>
+            </div>
+
+            <div className="h-72"></div>
+            <div className="text-xl text-gray-300 pl-10">Insert Coffee Table</div>
+
+            <div className="text-xl text-blx-900 pl-10">$879,00</div>
+
+            <div className="flex items-center justify-between px-10">
+              <button className="bg-blue-100 text-blue-500 rounded-xl p-1">TABLES</button>
+              <div className="flex space-x-2">
+                <div className="rounded-full w-4 h-4 bg-gray-300 cursor-pointer"></div>
+                <div className="rounded-full w-4 h-4 bg-gray-400 cursor-pointer"></div>
+                <div className="rounded-full w-4 h-4 bg-gray-500 cursor-pointer"></div>
+                <div className="rounded-full w-4 h-4 bg-gray-600 cursor-pointer"></div>
+              </div>
+            </div>
+        </div>
+      )
     default:
       return (
         <div className={`flex flex-col w-64`}>
