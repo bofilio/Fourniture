@@ -3,7 +3,7 @@ import TopBar from './TopBar'
 
 export default function Layout({children,className}) {
     return (
-        <div className={className} >
+        <div className={`min-h-screen ${className}`} >
             <TopBar/>
             {children}
         </div>

@@ -2,6 +2,7 @@ import React from 'react'
 
 export default function Login() {
     return (
+
         <div className="flex items-center justify-center  bg-primary-dark w-full min-h-screen">
 
 
@@ -31,6 +32,7 @@ export default function Login() {
                     </svg>
                 </div>
             </div>
+
         </div>
     )
 }
