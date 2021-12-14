@@ -1,11 +1,13 @@
 import React from 'react'
+import { Outlet } from 'react-router'
 import TopBar from './TopBar'
+
 
 export default function Layout({children,className}) {
     return (
-        <div className={`min-h-screen ${className}`} >
+        <div path='' className={`min-h-screen ${className}`} >
             <TopBar/>
-            {children}
+            <Outlet/>
         </div>
     )
 }
