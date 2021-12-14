@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Login() {
     return (
-        <div className="flex items-center justify-center my-36 ">
+        <div className="flex items-center justify-center  bg-primary-dark w-full min-h-screen">
 
 
-            <div className=" bg-gray-100  py-5 flex-grow max-w-lg rounded-3xl">
+            <div className=" bg-gray-100  py-5 flex-grow max-w-lg rounded-5xl">
                 <div className="flex justify-center py-7">
                     <span className="font-medium text-4xl">Welcome</span>
                 </div>
