@@ -1,5 +1,5 @@
 import React from 'react'
-import Star from './star.svg'
+import StarIcon from '../icons/StarIcon'
 
 export default function ReviewPanel(props) {
     return (
@@ -12,11 +12,12 @@ export default function ReviewPanel(props) {
                          </p>
                    </div>
                    <div className='flex '> 
-                   <img src={Star} alt="Star Logo" />
-                   <img src={Star} alt="Star Logo" />
-                   <img src={Star} alt="Star Logo" />
-                   <img src={Star} alt="Star Logo" />
-                   <img src={Star} alt="Star Logo" />
+                   <StarIcon className="w-4 h-4"/>
+                   <StarIcon className="w-4 h-4"/>
+                   <StarIcon className="w-4 h-4"/>
+                   <StarIcon className="w-4 h-4"/>
+                   <StarIcon className="w-4 h-4"/>
+                   
                    </div>
                    </div>
                    <div className=' font-sans text-gray-400  text-center '>

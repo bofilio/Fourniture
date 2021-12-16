@@ -1,6 +1,6 @@
 import React from 'react'
 import TopBar from '../components/layout/TopBar'
-import Product from '../components/Product'
+import Product from '../components/content/Product'
 
 
 export default function Home() {
