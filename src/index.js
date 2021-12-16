@@ -12,8 +12,6 @@ ReactDOM.render(
     <Router>
     <Product />
     </Router>
-    
-    
   </React.StrictMode>,
   document.getElementById('root')
 );
