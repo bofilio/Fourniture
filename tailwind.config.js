@@ -18,6 +18,12 @@ module.exports = {
         cgreen: "#2DCCA9",//cgreen = custom green
         cyellow: "#F9FFB7",
         cred: "#FD4E61",
+      },
+      width: {
+        '128': '32rem',
+      },
+      height: {
+        '128': '32rem',
       }
     }
   },
