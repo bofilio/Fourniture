@@ -10,6 +10,7 @@ module.exports = {
         108: '26rem',
       },
       width: {
+       102: '102px',
         90: '359px',
        108: '433px',
        101: '623px',
@@ -19,6 +20,7 @@ module.exports = {
        310: '1243px',
      },
      height: {
+        43:'43px',
        113: '203px',
        130: '523px',
        115: '463px',
@@ -29,6 +31,9 @@ module.exports = {
       borderRadius:{
         '4xl':"30px",
         '5xl':"36px",
+      },
+      gap: {
+        578: '578px',
       },
       colors: {
         primary: {

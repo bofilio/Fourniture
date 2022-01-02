@@ -5,6 +5,7 @@ import Category from './pages/Category';
 import { Route,Routes } from 'react-router-dom';
 import Layout from './components/layout/Layout';
 import ProductDetail from './pages/ProductDetail';
+import Gallery from './pages/Gallery';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='about' exact element={<About/>}/>
         <Route path='category' exact element={<Category/>}/>
         <Route path='productdetail' exact element={<ProductDetail/>}/>
+        <Route path='gallery' exact element={<Gallery/>}/>
       </Route>
       
     </Routes>
