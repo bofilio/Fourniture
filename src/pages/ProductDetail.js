@@ -19,7 +19,7 @@ export default function ProductDetail() {
       <div className="relative flex flex-col items-center mt-10 ml-64 mr-64 mb-10  px-10 py-10 gap-8 ">
         
         <div className='relative flex flex-row px-1 py-10 '>
-          <div className="relative w-101  h-145 bg-gray-200 rounded-3xl">
+          <div className="relative w-101  h-145 bg-gray-500 rounded-3xl">
             <div className="absolute flex items-center justify-center w-16 h-16 -translate-y-8  bg-white rounded-full top-1/2 -left-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
@@ -33,7 +33,8 @@ export default function ProductDetail() {
           </div>
 
           <div className="flex-col h-116 w-108 mt-10 pl-10 pt-10 space-y-3 ">
-            <div className='pl-4 space-y-2'>  <p className="uppercase bg-blue-300 max-w-max rounded-full">only & left</p>
+            <div className='pl-4 space-y-2'> 
+             <p className="uppercase bg-blue-300 w-32 text-center rounded-full">only & left</p>
               <p className="font-sans text-3xl translate-x-16 text-stone-900 scale-125 ">Rico Lounge Chair</p>
               <p className='font-sans text-2xl text-gray-400'>$1.625,00</p>
               <p>SKU: 1938302145</p>
@@ -46,7 +47,7 @@ export default function ProductDetail() {
 
               </div>
               <div className='flex flex-row items-center justify-center'>
-                <Button icon="" className="bg-gray-600 rounded-xl w-12 h-12" />
+                <Button icon="" className="bg-gray-600 rounded-xl w-12 h-12" /> 
                 <button className="flex justify-center items-center space-x-2 w-full ml-4 mr-4 bg-green-500 rounded-3xl py-4 mt-4">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -74,7 +75,7 @@ export default function ProductDetail() {
 
           </div>
         </div>
-        <div className="relative flex w-full mx-16 h-full bg-gray-200 rounded-3xl">
+        <div className="relative flex w-full mx-16 h-full bg-gray-300 rounded-3xl">
           <div className="relative flex flex-col gap-4  pl-10 pr-10 w-96 min-w-max h-full  bg-gray-500 rounded-3xl justify-center items-center">
             <div className='flex gap-32 mt-6'>
               <div className='font-semibold h-12 '>Review 16</div>

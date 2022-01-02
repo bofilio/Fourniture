@@ -6,7 +6,7 @@ import Product from '../components/content/Product'
 export default function Home() {
     return (
         <div className=' '>
-            <TopBar />
+            
             <div className="relative w-full mt-12 flex justify-center ">
                 <div className=" flex justify-between absolute left top-1/2 h-16 w-10/12 z-50 -translate-y-8">
                     <div className="relative w-16 h-16 rounded-full flex justify-center items-center bg-white -left-8">
